@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api-pod
+  labels:
+    component: api
+spec:
+  containers:
+    - name: api
+      image: k8_demo/api:v0.1
+      ports:
+        - containerPort: 5000
