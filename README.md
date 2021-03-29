@@ -14,7 +14,7 @@ Enable `nginx-ingress`:
 minikube addons enable ingress
 ```
 
-If this doesn't work, you may need to [change your vm driver](https://github.com/kubernetes/minikube/issues/7332#issuecomment-730565633:
+If this doesn't work, you may need to [change your vm driver](https://github.com/kubernetes/minikube/issues/7332#issuecomment-730565633):
 
 ```
 minikube config set vm-driver hyperkit
